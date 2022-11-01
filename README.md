@@ -1,6 +1,6 @@
-# gifapi spa
+# DEMO
 
-This template should help get you started developing with Vue 3 in Vite.
+http://vue3.rjwebdesign.cz/
 
 ## Recommended IDE Setup
 
