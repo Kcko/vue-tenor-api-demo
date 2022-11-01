@@ -5,14 +5,9 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <div class="Container max-w-6xl mx-auto px-5 pt-8 pb-16">
     <header class="flex items-center gap-8">
-      <RouterLink to="/"> Home </RouterLink>
-
-      <!-- <img
-        alt="Vue logo"
-        class="logo"
-        src="@/assets/header-logo.png"
-        width="125"
-      /> -->
+      <RouterLink to="/">
+        <img alt="" class="logo" src="@/assets/header-logo.png" width="180" />
+      </RouterLink>
 
       <nav class="flex items-center gap-4">
         <RouterLink to="/" class="p-4">Trending</RouterLink>
@@ -28,10 +23,10 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <style>
 body {
-  background: url('@/assets/bg.jpg') no-repeat top center;
+  background: url('@/assets/bg.jpg') no-repeat top center fixed;
 }
 nav a {
-  @apply font-medium;
+  @apply font-medium text-lg;
 }
 
 nav a:hover {

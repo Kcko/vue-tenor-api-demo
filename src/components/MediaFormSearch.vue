@@ -1,5 +1,5 @@
 <template>
-  <form>
+  <form @submit.prevent="">
     <input
       v-model="q"
       @input="searchByQ"
